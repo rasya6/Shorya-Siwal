@@ -1,0 +1,85 @@
+body {
+    border: 1px black solid;
+    padding: 100px;
+    background-image:url("d.jpeg");
+    background-size: cover;
+}
+ul.menu {
+    list-style-type: none;
+    display: inline;
+    align-content: center;
+    background-color: coral;
+    color: white;
+    
+}
+.nav {
+    display: inline;
+    padding: 5px;
+    align-content: center;
+}
+.mainmenu {
+    border: 1px black solid;
+    background-color: coral;
+    color: white;
+}
+.pic {
+    width: 500px;
+}
+.pic2 {
+    width: 200px;
+}
+#title {
+    font-family:'Segoe UI';
+}
+label {
+    font-size: larger;
+}
+form {
+    display: block;
+}
+li {
+    font-size: larger;
+}
+.style1 {
+    font-size: larger;
+    padding: 5px;
+    font-family: 'Courier New';
+}
+.style2 {
+    padding: 5px;
+    font-family: 'Gill Sans';
+    font-style: italic;
+}
+.salmon {
+    background-color: lavender;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 3px black dotted;
+}
+.pink {
+    background-color: pink;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 3px black dotted;
+}
+button {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    align-items: center;
+  }
+td {
+    padding-right: 30px;
+}
+#instagram {
+    background-color: rgb(255, 0, 195);
+}
+#youtube {
+    background-color: red;
+}
+#twitter {
+    background-color: skyblue;
+}
+#instagram:hover, #youtube:hover, #twitter:hover {
+    background-color: coral;
+}
